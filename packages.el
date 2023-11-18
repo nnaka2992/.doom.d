@@ -64,3 +64,5 @@
 (package! fontawesome)
 
 (package! multi-vterm)
+
+(package! with-editor)

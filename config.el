@@ -115,3 +115,6 @@
 
 ;; others
 (map! "C-z" #'multi-vterm)
+
+;;with editor
+(add-hook! 'vterm-mode-hook 'with-editor-export-editor)
